@@ -110,7 +110,7 @@ I have used [Webhose.io](http://webhose.io) to download thousands of news in dif
 
 #### Training
 
-You can follow the training process in this [Jupyter Notebook file](http://github.com/gzomer/unbiased/blob/master/PoliticalNewsClassifier.ipynb).
+You can follow the training process in this [Jupyter Notebook file](http://github.com/gzomer/unbiased/blob/master/models/PoliticalNewsClassifier.ipynb).
 
 #### Saving the model
 
