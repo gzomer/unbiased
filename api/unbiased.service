@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve Unbiased
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/opt/unbiased
+Environment="PATH=/opt/unbiased/env/bin"
+ExecStart=/opt/unbiased/env/bin/uwsgi --ini unbiased.ini
+
+[Install]
+WantedBy=multi-user.target
