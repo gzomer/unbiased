@@ -70,7 +70,7 @@ def get_news_embeddings():
 
 def build_embeddings_cache():
 	news = get_all_news()
-		
+	
 	return [[new['id'], sentence_embedding(new['title']), new['stance']] for new in news]
 
 def get_news_from_ids(ids):
@@ -87,7 +87,7 @@ def get_all_news():
 	posts_json = json.loads(posts)
 
 	_NEWS_CACHE = {post['id']: post  for post in posts_json}
-	return posts
+	return posts_json
 
 
 
