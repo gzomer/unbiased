@@ -85,7 +85,8 @@ def get_all_news():
 		f.close()
 
 	posts_json = json.loads(posts)
-	_NEWS_CACHE = {post['id']: post  for post in posts}
+
+	_NEWS_CACHE = {post['id']: post  for post in posts_json}
 	return posts
 
 
