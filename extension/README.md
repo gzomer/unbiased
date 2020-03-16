@@ -1,4 +1,4 @@
-### Unbiased Browser Extension
+## Unbiased Browser Extension
 
 The browser extension was developed using `Javascript` and `Chrome Extensions API`.
 
