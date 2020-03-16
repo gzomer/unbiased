@@ -110,7 +110,7 @@ I have used [Webhose.io](http://webhose.io) to download thousands of news in dif
 
 #### Training
 
-You can follow the training process in this [Jupyter Notebook file](http://github.com/unbiased/models/PoliticalNewsClassifier.ipynb).
+You can follow the training process in this [Jupyter Notebook file](http://github.com/unbiased/blob/master/PoliticalNewsClassifier.ipynb).
 
 #### Saving the model
 
@@ -152,7 +152,7 @@ Each newspaper was manually classified into EXTREME_LEFT, LEFT, LEFT_CENTER, LEA
 
 #### Training
 
-You can follow the training process in this [Jupyter Notebook file](http://github.com/unbiased/models/PoliticalNewsStanceClassifier.ipynb).
+You can follow the training process in this [Jupyter Notebook file](http://github.com/gzomer/unbiased/blob/master/models/PoliticalNewsStanceClassifier.ipynb).
 
 #### Saving the model
 
