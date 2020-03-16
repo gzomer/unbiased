@@ -1,4 +1,4 @@
-### Political news classifier
+## Political news classifier
 
 #### Data
 
@@ -38,7 +38,7 @@ config = {
 
 
 
-### Political Stance classifier
+## Political Stance classifier
 
 #### Data
 
