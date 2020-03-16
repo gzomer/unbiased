@@ -41,5 +41,5 @@ class TextClassifierModel():
 								for token in ngrams_iterator(tokenizer(text), self.ngrams)])
 			output = self.model(text, torch.tensor([0]))
 			result = output.argmax(1).item()
-			label = self.labels[result]
+			label = self.labels[result+1]
 			return label
